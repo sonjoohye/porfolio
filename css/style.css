@@ -88,7 +88,7 @@ body {line-height: 1; font-size: 13px; color: #333; }
 .margin {height: 100vh;}
 
 /* 두번째 단락 - 간단 멘트 */
-.about {height: 100vh; display:flex; justify-content: center; 
+.about { height: 100vh; display:flex; justify-content: center; 
         background:#f9f5f3 url(../img/bg_about.png) center center/cover no-repeat; 
         position: relative; }
 .about .center{width: 1500px; display:flex; align-items: center;}
@@ -118,7 +118,7 @@ body {line-height: 1; font-size: 13px; color: #333; }
 
 /* 포트폴리오 모음 */
 .portfolio {background:#fff url(../img/bg_portfolio_01.png) center center/cover no-repeat;
-            height:222vh; position: relative; padding:150px 0 30px;}
+            height:320vh; position: relative; padding:150px 0 30px;}
 .portfolio .title_box {text-align: center; margin-bottom:70px;}
 .portfolio .title_box > h2 {font-size: 50px; color: #333; }
 .portfolio .title_box > p {font-size: 15px; color:#888; margin-top: 20px; }
@@ -126,6 +126,8 @@ body {line-height: 1; font-size: 13px; color: #333; }
 /* 반응형 웹 모음 */
 /* .bg {width: 600px; height:50px; background:#d1a587;  position: relative;} */
 .bg {width:0%; height:50px; background:#f7e4e1;}
+.responsive {margin-top: 150px;}
+.responsive.Frontend {margin-top: 0px;}
 .responsive .top { position: relative;}
 .responsive .top h2 {font-size: 30px; color:#959090;
                      position: absolute; top:-17px; left: 270px;}
@@ -146,6 +148,7 @@ body {line-height: 1; font-size: 13px; color: #333; }
 .responsive .list .site .txt_box .title {font-size:20px; color:#444;}
 .responsive .list .site .txt_box .title > img {width:22px; position:relative; top:2px;}
 .responsive .list .site .txt_box .explanation {text-align:left; margin-left: 230px; color:#555;}
+.responsive .list .site .txt_box .explanation.frontend {margin-left: 170px;}
 .responsive .list .site .txt_box .explanation > p {line-height:2; font-size: 15px;}
 .responsive .list .site .txt_box .explanation > p > span:nth-child(1) {position:relative; top:9px; margin-right: 5px;}
 .responsive .list .site .txt_box .explanation > p > span:nth-child(2) {color: #222; font-weight: bold;}

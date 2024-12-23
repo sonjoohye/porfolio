@@ -21,9 +21,9 @@ let secStart = [];
 let scrollOn = true;
 
 // 카운팅 될 숫자값 배열로 저장
-let countArray = [90,70,75,90,80,80];
+let countArray = [80,80,90,85,80,75];
 // 게이지 dashoffset 변경될 숫자값
-let percent = [44,132,110,44,88,88];
+let percent = [80,80,44,85,80,110];
 // .circle 대상들 선택
 const circle = document.querySelectorAll(".circle");
 
@@ -154,7 +154,7 @@ for(let i = 0; i < gnb.length; i++){
 }
 
 // 자동타이핑
-let text = "도전하며 성장하는 \n 퍼블리셔 손주혜입니다 :)"
+let text = "도전하며 성장하는 \n 프론트엔드 개발자\n 손주혜입니다 :)"
 let viewText = "";
 let i = 0;
 
